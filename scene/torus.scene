@@ -1,0 +1,87 @@
+<scene>
+	<background>		00 00 00 </background>
+	<eye>
+		<position>		-12 0 7		</position>
+		<angle>			0 -0.3 0 		</angle>
+	</eye>
+	<spot>
+		<position>		-100 50 50  </position>
+		<diffuse> 		0.6 		</diffuse>
+		<specular> 		1.0			</specular>
+		<color> 		0xff0000	</color>
+		<intensity>		100			</intensity>
+	</spot>
+	<spot>
+		<position>		-100 -50 50	</position>
+		<diffuse> 		0.6 		</diffuse>
+		<specular> 		1.0			</specular>
+		<color> 		0x0000ff	</color>
+		<intensity>		100			</intensity>
+	</spot>
+
+	<object>
+		<type>			PLANE		</type>
+		<position>		0 0 -0.50		</position>
+		<angle>			0 0 0		</angle>
+		<scale>			1 1 1		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			00 BE EE	</color>
+		<effect>		damier		</effect>
+	</object>
+	<object>
+		<type>			TORUS		</type>
+		<position>		10 0 1		</position>
+		<angle>			PI/2 0 PI/2	</angle>
+		<scale>			1 1 1		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.95			</diffuse>
+		<specular>		0.95			</specular>
+		<shininess>		1.0		</shininess>
+		<color>			ff ff ff	</color>
+		<radius>		4			</radius>
+		<height>		2			</height>
+		<effect>		cool		</effect>
+	</object>
+	<object>
+		<type>			TORUS		</type>
+		<position>		10 0 25		</position>
+		<angle>			PI/2 0 PI/2	</angle>
+		<scale>			2 2 2		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.95			</diffuse>
+		<specular>		0.95			</specular>
+		<shininess>		10.0		</shininess>
+		<color>			ff 0 0	</color>
+		<radius>		4			</radius>
+		<height>		2			</height>
+		<effect>		cool		</effect>
+	</object>
+	<object>
+		<type>			SPHERE		</type>
+		<position>		10 4 0		</position>
+		<angle>			0 0 0		</angle>
+		<scale>			3 3 3		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			ff 00 ff	</color>
+		<negatif>		0	</negatif>
+		<effect>		cool 	   </effect>
+	</object>
+	<object>
+		<type>			SPHERE		</type>
+		<position>		10 -4 0		</position>
+		<angle>			0 0 0		</angle>
+		<scale>			3 3 3		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			ff 0 ff	</color>
+		<effect>		cool 	   </effect>
+	</object>
+</scene>

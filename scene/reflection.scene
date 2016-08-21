@@ -1,0 +1,91 @@
+<scene>
+	<background>		00 00 00 </background>
+	<eye>
+		<position>		0 0 0		</position>
+		<angle>			0 0 0 		</angle>
+	</eye>
+	<spot>
+		<position>		-100 50 50  </position>
+		<diffuse> 		0.6 		</diffuse>
+		<specular> 		1.0			</specular>
+		<color> 		0xff0000	</color>
+		<intensity>		100			</intensity>
+	</spot>
+	<spot>
+		<position>		-100 -50 50	</position>
+		<diffuse> 		0.6 		</diffuse>
+		<specular> 		1.0			</specular>
+		<color> 		0x0000ff	</color>
+		<intensity>		100			</intensity>
+	</spot>
+	<spot>
+		<position>		0 0 2.5	</position>
+		<diffuse> 		0.6 		</diffuse>
+		<specular> 		1.0			</specular>
+		<color> 		0xffffff	</color>
+		<intensity>		100			</intensity>
+	</spot>
+	<spot>
+		<position>		0 20 2.5	</position>
+		<diffuse> 		0.6 		</diffuse>
+		<specular> 		1.0			</specular>
+		<color> 		0xffffff	</color>
+		<intensity>		100			</intensity>
+	</spot>
+	<spot>
+		<position>		0 -20 2.5	</position>
+		<diffuse> 		0.6 		</diffuse>
+		<specular> 		1.0			</specular>
+		<color> 		0xffffff	</color>
+		<intensity>		100			</intensity>
+	</spot>
+
+	<object>
+		<type>			PLANE		</type>
+		<position>		0 0 -1		</position>
+		<angle>			0 0 0		</angle>
+		<scale>			1 1 1		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			00 BE EE	</color>
+		<reflection>      0.8        </reflection>
+	</object>
+	<object>
+		<type>			SPHERE		</type>
+		<position>		10 0 5	</position>
+		<angle>			0 0 0		</angle>
+		<scale>			3 3 3		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			ff 00 00	</color>
+		<reflection>      0.8        </reflection>
+	</object>
+	<object>
+		<type>			SPHERE		</type>
+		<position>		10 7 5	</position>
+		<angle>			0 0 0		</angle>
+		<scale>			3 3 3		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			00 ff 00	</color>
+		<reflection>      0.8        </reflection>
+	</object>
+	<object>
+		<type>			SPHERE		</type>
+		<position>		10 -7 5	</position>
+		<angle>			0 0 0		</angle>
+		<scale>			3 3 3		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			00 00 ff	</color>
+		<reflection>      0.8        </reflection>
+	</object>
+</scene>

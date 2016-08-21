@@ -1,0 +1,57 @@
+<scene>
+	<background>		00 00 00 </background>
+	<eye>
+		<position>		0 0 0		</position>
+		<angle>			0 0 0 		</angle>
+	</eye>
+	<spot>
+		<position>		-100 50 50  </position>
+		<diffuse> 		0.6 		</diffuse>
+		<specular> 		1.0			</specular>
+		<intensity>		100			</intensity>
+		<color> 		0x00FF00	</color>
+	</spot>
+	<spot>
+		<position>		-100 -50 50	</position>
+		<diffuse> 		0.6 		</diffuse>
+		<specular> 		1.0			</specular>
+		<intensity>		100			</intensity>
+		<color> 		0x0000ff	</color>
+	</spot>
+	<compose>
+		<type>			VERRE			</type>
+		<position>		9 0 0			</position>
+		<angle>			0 0	0			</angle>
+		<scale>			1 1 1			</scale>
+		<ambiant>		0.1				</ambiant>
+		<diffuse>		0.8				</diffuse>
+		<specular>		0.8				</specular>
+		<shininess>		50.0			</shininess>
+		<color>			00FF00			</color>
+		<effect>		noise			</effect>
+	</compose>
+	<compose>
+		<type>			VERRE			</type>
+		<position>		9 -6 0			</position>
+		<angle>			0 0 0			</angle>
+		<scale>			1 1 1			</scale>
+		<ambiant>		0.1				</ambiant>
+		<diffuse>		0.8				</diffuse>
+		<specular>		0.8				</specular>
+		<shininess>		50.0			</shininess>
+		<color>			00FF00			</color>
+		<effect>		noise			</effect>
+	</compose>
+	<compose>
+		<type>			VERRE			</type>
+		<position>		9 6 0			</position>
+		<angle>			0 0 0			</angle>
+		<scale>			1 1 1			</scale>
+		<ambiant>		0.1				</ambiant>
+		<diffuse>		0.8				</diffuse>
+		<specular>		0.8				</specular>
+		<shininess>		50.0			</shininess>
+		<color>			00FF00			</color>
+		<effect>		noise			</effect>
+	</compose>
+</scene>

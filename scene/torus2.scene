@@ -1,0 +1,88 @@
+<scene>
+	<background> 0x0 </background>
+	<eye>
+		<position> 9.00 -3.00 9.00 </position>
+		<angle> 0.00 0.00 0.00 </angle>
+	</eye>
+	<spot>
+		<position> 0.00 -100.00 0.00 </position>
+		<diffuse> 0.60 </diffuse>
+		<specular> 1.00 </specular>
+		<color> 0xffffff </color>
+		<intensity> 10.00 </intensity>
+	</spot>
+	<spot>
+		<position> -100.00 0.00 0.00 </position>
+		<diffuse> 0.60 </diffuse>
+		<specular> 1.00 </specular>
+		<color> 0xffffff </color>
+		<intensity> 10.00 </intensity>
+	</spot>
+	<spot>
+		<position> 0.00 -100.00 0.00 </position>
+		<diffuse> 0.60 </diffuse>
+		<specular> 1.00 </specular>
+		<color> 0xffffff </color>
+		<intensity> 10.00 </intensity>
+	</spot>
+	<object>
+		<type> TORUS </type>
+		<position> 20.00 -5.00 10.00 </position>
+		<angle> -0.79 0.00 1.57 </angle>
+		<scale> 1.50 1.50 1.50 </scale>
+		<effect> cool </effect>
+		<diffuse> 0.95 </diffuse>
+		<ambiant> 0.10 </ambiant>
+		<specular> 0.95 </specular>
+		<shininess> 100.00 </shininess>
+		<radius> 3.00 </radius>
+		<height> 1.00 </height>
+		<limit> 0 </limit>
+		<limit2> 0 </limit2>
+		<negatif> false </negatif>
+		<reflection> 0.50 </reflection>
+		<refraction> 0.00 </refraction>
+		<transparancy> 0.00 </transparancy>
+		<color> 0xffff00 </color>
+	</object>
+	<object>
+		<type> TORUS </type>
+		<position> 20.00 0.00 10.00 </position>
+		<angle> 1.57 0.00 1.57 </angle>
+		<scale> 1.50 1.50 1.50 </scale>
+		<effect> cool </effect>
+		<diffuse> 0.95 </diffuse>
+		<ambiant> 0.10 </ambiant>
+		<specular> 0.95 </specular>
+		<shininess> 100.00 </shininess>
+		<radius> 3.00 </radius>
+		<height> 1.00 </height>
+		<limit> 0 </limit>
+		<limit2> 0 </limit2>
+		<negatif> false </negatif>
+		<reflection> 0.50 </reflection>
+		<refraction> 0.00 </refraction>
+		<transparancy> 0.00 </transparancy>
+		<color> 0xff </color>
+	</object>
+	<object>
+		<type> PLANE </type>
+		<position> 70.00 0.00 0.00 </position>
+		<angle> 0.00 -1.57 0.00 </angle>
+		<scale> 1.00 1.00 1.00 </scale>
+		<effect> none </effect>
+		<diffuse> 0.80 </diffuse>
+		<ambiant> 0.30 </ambiant>
+		<specular> 0.80 </specular>
+		<shininess> 50.00 </shininess>
+		<radius> 0.00 </radius>
+		<height> 0.00 </height>
+		<limit> 0 </limit>
+		<limit2> 0 </limit2>
+		<negatif> false </negatif>
+		<reflection> 0.00 </reflection>
+		<refraction> 0.00 </refraction>
+		<transparancy> 0.00 </transparancy>
+		<color> 0x5a5a5a </color>
+	</object>
+</scene>

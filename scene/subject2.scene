@@ -1,0 +1,88 @@
+<scene>
+	<background>		00 00 00 </background>
+	<eye>
+		<position>		7 10 0		</position>
+		<angle>			0  0 -PI/2		</angle>
+	</eye>
+	<spot>
+		<position>		-100 -150 0  </position>
+		<diffuse> 		0.6 		</diffuse>
+		<specular> 		1.0			</specular>
+		<color> 		0xffffff	</color>
+		<intensity>		100			</intensity>
+	</spot>
+	<spot>
+		<position>		-100 100 50	</position>
+		<diffuse> 		0.6 		</diffuse>
+		<specular> 		1.0			</specular>
+		<color> 		0xffffff	</color>
+		<intensity>		100			</intensity>
+	</spot>
+
+	<object>
+		<type>			PLANE		</type>
+		<position>		0 0 -5		</position>
+		<angle>			0 0 0		</angle>
+		<scale>			1 1 1		</scale>
+		<ambiant>		0.3			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			170 170 170	</color>
+	</object>
+    <object>
+        <type>          PLANE       </type>
+        <position>      20 0 0     </position>
+        <angle>         0 PI/2 0       </angle>
+        <scale>         1 1 1       </scale>
+        <ambiant>       0.3         </ambiant>
+        <diffuse>       0.8         </diffuse>
+        <specular>      0.8         </specular>
+        <shininess>     50.0        </shininess>
+        <color>         109 109 255   </color>
+    </object>
+    <object>
+        <type>          SPHERE      </type>
+        <position>      10 7 -3    </position>
+        <angle>         0 0 0       </angle>
+        <scale>         2 2 2       </scale>
+        <ambiant>       0.3         </ambiant>
+        <diffuse>       0.8         </diffuse>
+        <specular>      1.0         </specular>
+        <shininess>     10.0        </shininess>
+		<color>         ff 00 00    </color>
+    </object>
+    <object>
+        <type>          SPHERE      </type>
+        <position>      10 -7 -3    </position>
+        <angle>         0 0 0       </angle>
+        <scale>         2 2 2       </scale>
+        <ambiant>       0.3         </ambiant>
+        <diffuse>       0.8         </diffuse>
+        <specular>      1.0         </specular>
+        <shininess>     10.0        </shininess>
+		<color>         34C924    </color>
+    </object>
+    <object>
+        <type>          CYLINDER        </type>
+        <position>      12 0 0         </position>
+        <angle>         PI/4 0  0   </angle>
+        <scale>         2 2 2           </scale>
+        <ambiant>       0.3             </ambiant>
+		<diffuse>       0.8             </diffuse>
+        <specular>      0.8             </specular>
+        <shininess>     50.0            </shininess>
+        <color>         255 0 255          </color>
+    </object>
+    <object>
+        <type>          CONE        </type>
+        <position>      12 -4 -1         </position>
+        <angle>         -PI/3 -PI/6 0   </angle>
+        <scale>         0.2 0.2 1           </scale>
+        <ambiant>       0.3             </ambiant>
+		<diffuse>       0.8             </diffuse>
+        <specular>      0.8             </specular>
+        <shininess>     50.0            </shininess>
+        <color>         F7FF3C          </color>
+    </object>
+</scene>

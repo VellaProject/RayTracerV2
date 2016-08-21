@@ -1,0 +1,68 @@
+<scene>
+	<background> 0x0 </background>
+	<eye>
+		<position> 5.00 9.00 1.00 </position>
+		<angle> 0.00 -0.10 -0.80 </angle>
+	</eye>
+	<spot>
+		<position> -10.00 0.00 50.00 </position>
+		<diffuse> 0.60 </diffuse>
+		<specular> 1.00 </specular>
+		<color> 0xffffff </color>
+		<intensity> 100.00 </intensity>
+	</spot>
+	<spot>
+		<position> -10.00 -20.00 50.00 </position>
+		<diffuse> 0.60 </diffuse>
+		<specular> 1.00 </specular>
+		<color> 0xffffff </color>
+		<intensity> 100.00 </intensity>
+	</spot>
+	<spot>
+		<position> -10.00 20.00 50.00 </position>
+		<diffuse> 0.60 </diffuse>
+		<specular> 1.00 </specular>
+		<color> 0xffffff </color>
+		<intensity> 100.00 </intensity>
+	</spot>
+	<object>
+		<type> SPHERE </type>
+		<position> 10.00 0.00 3.00 </position>
+		<angle> 0.00 0.00 0.00 </angle>
+		<scale> 3.20 3.20 3.20 </scale>
+		<effect> none </effect>
+		<diffuse> 0.80 </diffuse>
+		<ambiant> 0.10 </ambiant>
+		<specular> 0.80 </specular>
+		<shininess> 50.00 </shininess>
+		<radius> 0.00 </radius>
+		<height> 0.00 </height>
+		<limit> 0 </limit>
+		<limit2> 0 </limit2>
+		<negatif> false </negatif>
+		<reflection> 0.00 </reflection>
+		<refraction> 0.00 </refraction>
+		<transparancy> 0.00 </transparancy>
+		<color> 0xff7fff </color>
+	</object>
+	<object>
+		<type> PLANE </type>
+		<position> 0.00 0.00 -5.00 </position>
+		<angle> 0.00 0.00 0.00 </angle>
+		<scale> 1.00 1.00 1.00 </scale>
+		<effect> none </effect>
+		<diffuse> 0.80 </diffuse>
+		<ambiant> 0.10 </ambiant>
+		<specular> 0.80 </specular>
+		<shininess> 50.00 </shininess>
+		<radius> 0.00 </radius>
+		<height> 0.00 </height>
+		<limit> 0 </limit>
+		<limit2> 0 </limit2>
+		<negatif> false </negatif>
+		<reflection> 0.00 </reflection>
+		<refraction> 0.00 </refraction>
+		<transparancy> 0.00 </transparancy>
+		<color> 0xffffff </color>
+	</object>
+</scene>

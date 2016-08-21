@@ -1,0 +1,118 @@
+<scene>
+	<background>		00 00 00 </background>
+	<eye>
+		<position>		0 0 0		</position>
+		<angle>			0 0 0 		</angle>
+	</eye>
+	<spot>
+		<position>		-100 50 50  </position>
+		<diffuse> 		0.6 		</diffuse>
+		<specular> 		1.0			</specular>
+		<color> 		0xff0000	</color>
+		<intensity>		100			</intensity>
+	</spot>
+	<spot>
+		<position>		-100 -50 50	</position>
+		<diffuse> 		0.6 		</diffuse>
+		<specular> 		1.0			</specular>
+		<color> 		0x0000ff	</color>
+	</spot>
+
+	<object>
+		<type>			PLANE		</type>
+		<position>		0 0 -10		</position>
+		<angle>			0 0 0		</angle>
+		<scale>			1 1 1		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			00 BE EE	</color>
+	</object>
+	<object>
+		<type>			HYPERBOLOID	</type>
+		<position>		10 6 4		</position>
+		<angle>			PI/2 0 0	</angle>
+		<scale>			1 1 1		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			ff0000		</color>
+		<radius>		2			</radius>
+		<height>		2			</height>
+		<limit>			z_rot		</limit>
+		<limit2>		z_rot = -1	</limit2>
+		<negatif>               1               </negatif>
+	</object>
+	<object>
+		<type>			HYPERBOLOID	</type>
+		<position>		10 0 4		</position>
+		<angle>			PI/2 0 0	</angle>
+		<scale>			1 1 1		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			00ff00		</color>
+		<radius>		2			</radius>
+		<height>		2			</height>
+		<limit>			y_rot = 1		</limit>
+	</object>
+	<object>
+		<type>			HYPERBOLOID	</type>
+		<position>		10 -6 4		</position>
+		<angle>			PI/2 0 0	</angle>
+		<scale>			1 1 1		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			0000ff		</color>
+		<radius>		2			</radius>
+		<height>		2			</height>
+		<limit>			z_rot		</limit>
+		<limit2>		y_rot = -1	</limit2>
+	</object>
+	<object>
+		<type>			HYPERBOLOID	</type>
+		<position>		10 -6 -2		</position>
+		<angle>			PI/2 0 0	</angle>
+		<scale>			1 1 1		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			ff0000		</color>
+		<radius>		2			</radius>
+		<height>		2			</height>
+		<limit2>		y_rot = -1	</limit2>
+	</object>
+	<object>
+		<type>			HYPERBOLOID	</type>
+		<position>		10 6 -2		</position>
+		<angle>			PI/2 0 0	</angle>
+		<scale>			1 1 1		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			00ff00		</color>
+		<radius>		2			</radius>
+		<height>		2			</height>
+		<limit2>		z_rot = 1	</limit2>
+	</object>
+	<object>
+		<type>			HYPERBOLOID	</type>
+		<position>		10 0 -2		</position>
+		<angle>			PI/2 0 0	</angle>
+		<scale>			1 1 1		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			0000ff		</color>
+		<radius>		2			</radius>
+		<height>		2			</height>
+	</object>
+</scene>

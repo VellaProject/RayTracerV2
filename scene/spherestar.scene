@@ -1,0 +1,133 @@
+<scene>
+	<background>		00 00 80 </background>
+	<eye>
+		<position>		0 0 0		</position>
+		<angle>			0 0 0 		</angle>
+	</eye>
+	<spot>
+		<position>		-100 0 00  </position>
+		<diffuse> 		0.6 		</diffuse>
+		<specular> 		1.0			</specular>
+		<color> 		0xff0000	</color>
+		<intensity>		100			</intensity>
+	</spot>
+
+	<object>
+		<type>			SPHERE		</type>
+		<position>		15 -1.2 0	</position>
+		<angle>			-0.5 0 0		</angle>
+		<scale>			3 8 3		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			EB 83 7D	</color>
+		<limit>			y_rot 		</limit>
+	</object>
+	<object>
+		<type>			SPHERE		</type>
+		<position>		15 1.2 0	</position>
+		<angle>			3.5 0 0		</angle>
+		<scale>			3 8 3		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			EB 83 7D	</color>
+		<limit>			y_rot 		</limit>
+	</object>
+	<object>
+		<type>			SPHERE		</type>
+		<position>		15 -1.1 0	</position>
+		<angle>			1.4 0 0	</angle>
+		<scale>			3 10 3		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			EB 83 7D	</color>
+	</object>
+	<object>
+		<type>			SPHERE		</type>
+		<position>		15 1.1 0	</position>
+		<angle>			1.7 0 0		</angle>
+		<scale>			3 10 3		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			EB 83 7D	</color>
+	</object>
+	<object>
+		<type>			SPHERE		</type>
+		<position>		13 -1 6.5		</position>
+		<angle>			1.7 0 0		</angle>
+		<scale>			0.8 0.8 0.8		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			FF FF FF	</color>
+	</object>
+	<object>
+		<type>			SPHERE		</type>
+		<position>		13 1 6.5		</position>
+		<angle>			1.7 0 0		</angle>
+		<scale>			0.8 0.8 0.8		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			FF FF FF	</color>
+	</object>
+	<object>
+		<type>			SPHERE		</type>
+		<position>		12.3 -0.8 6.5		</position>
+		<angle>			1.7 0 0		</angle>
+		<scale>			0.2 0.2 0.2		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			00 00 00	</color>
+	</object>
+	<object>
+		<type>			SPHERE		</type>
+		<position>		12.3 0.8 6.5		</position>
+		<angle>			1.7 0 0		</angle>
+		<scale>			0.2 0.2 0.2		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			00 00 00	</color>
+	</object>
+
+	<object>
+		<type>			SPHERE		</type>
+		<position>		12 0 4.5		</position>
+		<angle>			0 0 0		</angle>
+		<scale>			0.1 1.4 1.8		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			00 00 00	</color>
+		<limit>			z_rot 		</limit>
+	</object>
+
+	<object>
+		<type>			TORUS		</type>
+		<position>		15 0 -2	</position>
+		<angle>			0 -0.2 0		</angle>
+		<scale>			3 3 3		</scale>
+		<ambiant>		0.1			</ambiant>
+		<diffuse>		0.8			</diffuse>
+		<specular>		0.8			</specular>
+		<shininess>		50.0		</shininess>
+		<color>			00 FF 00	</color>
+		<radius>		1.7     		</radius>
+		<height>		0.2		</height>
+		<reflection>		0.3		</reflection>
+	</object>
+</scene>
